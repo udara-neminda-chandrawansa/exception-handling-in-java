@@ -24,7 +24,7 @@ class Square implements Shape{
     }
 }
 
-//public class ShapeFactory {
+public class ShapeFactory {
     //use getShape method to get object of type shape
     public Shape getShape(String shapeType){
         if(shapeType == null){
@@ -44,13 +44,13 @@ class Square implements Shape{
     }
 }
 
-//public abstract class ShapeFactory {
-//    public abstract Shape createShape();
-//
-//    public void drawShape() {
-//        Shape shape = createShape();
-//        shape.draw();
-//    }
-//}
+public abstract class ShapeFactory {
+    public abstract Shape createShape();
+
+    public void drawShape() {
+        Shape shape = createShape();
+        shape.draw();
+    }
+}
 
 
