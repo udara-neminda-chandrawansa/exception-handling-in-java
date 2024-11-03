@@ -1,5 +1,5 @@
-package FactoryMethod;
+package week05.factorymethod;
 
-public class Shape {
-
+public interface Shape {
+    void draw();
 }
